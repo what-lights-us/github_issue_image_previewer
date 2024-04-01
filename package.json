@@ -1,0 +1,8 @@
+{
+  "name": "github_issue_image_previewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:what-lights-us/github_issue_image_previewer.git",
+  "author": "bekreth <bekreth@proton.me>",
+  "license": "BSD 3"
+}
