@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "GitHub Issue Image Previewer",
-  "version": "1.0",
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "version": "1.0.1",
+  "description": "Makes the first image in a GitHub issue visiable on the project board",
   "content_scripts": [
     {
       "matches": ["*://github.com/orgs/*/projects/*"],

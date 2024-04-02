@@ -6,6 +6,6 @@
   "author": "bekreth <bekreth@proton.me>",
   "license": "BSD 3",
 	"scripts": {
-		"package": "mkdir -p dist; cp src/main.js dist; cp packaging/manifest.json dist"
+		"package": "mkdir -p dist; cp src/main.js dist; cp packaging/manifest.json dist; zip dist/git_issue_image_previewer.zip dist/main.js dist/manifest.json"
 	}
 }
