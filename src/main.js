@@ -4,7 +4,10 @@ const ticket_class = "board-view-column-card"
 const regex_match_issue_url = /^https:\/\/github\.com\/(.*)\/(.*)\/issues\/(\d+)$/
 const regex_match_image_url = /\((https:\/\/github.com\/.*\/assets\/.*)\)/
 
-document.addEventListener('pjax:success',function(e){
+document.addEventListener('DOMContentLoaded', function(e) {
+	find_html_tickets()
+})
+document.addEventListener('readstatechange', function(e) {
 	find_html_tickets()
 })
 find_html_tickets()

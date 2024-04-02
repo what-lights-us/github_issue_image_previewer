@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:what-lights-us/github_issue_image_previewer.git",
   "author": "bekreth <bekreth@proton.me>",
-  "license": "BSD 3"
+  "license": "BSD 3",
+	"scripts": {
+		"package": "mkdir -p dist; cp src/main.js dist; cp packaging/manifest.json dist"
+	}
 }
