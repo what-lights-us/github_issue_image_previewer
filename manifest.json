@@ -14,5 +14,8 @@
       "matches": ["*://github.com/orgs/*/projects/*"],
       "js": ["main.js"]
     }
-  ]
+  ],
+	"permissions": [
+		"webRequest"
+	]
 }
