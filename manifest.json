@@ -12,8 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://github.com/orgs/*/projects/*"],
-      "js": ["borderify.js"]
+      "js": ["main.js"]
     }
   ]
 }
-
