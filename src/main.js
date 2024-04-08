@@ -11,6 +11,7 @@ document.addEventListener('readstatechange', function(e) {
 	find_html_tickets()
 })
 find_html_tickets()
+setTimeout(find_html_tickets, 5000)
 
 function find_html_tickets() {
 	var html_tickets = document.getElementsByClassName(ticket_class);
